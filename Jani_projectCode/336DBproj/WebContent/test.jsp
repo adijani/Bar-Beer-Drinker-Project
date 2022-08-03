@@ -1,0 +1,14 @@
+out.println("<tr>");
+out.print("<td>"+rs.getString("Bills.bill_id")+ "</td>");
+out.print("<td>"+rs.getString("Bills.bar_name")+ "</td>");
+out.print("<td>"+rs.getString("Bills.bill_date")+ "</td>");
+out.print("<td>"+rs.getString("Bills.bill_time")+ "</td>");
+out.print("<td>"+rs.getString("Bills.drinker_name")+ "</td>");
+out.print("<td>"+rs.getString("Transactions.quantity")+ "</td>");
+out.print("<td>"+rs.getString("Transactions.item")+ "</td>");
+out.print("<td>"+rs.getString("Transactions.type")+ "</td>");
+out.print("<td>"+rs.getString("Bills.items_price")+ "</td>");
+out.print("<td>"+rs.getString("Transactions.price")+ "</td>");
+out.print("<td>"+rs.getString("Bills.tax_price")+ "</td>");
+out.print("<td>"+rs.getString("Bills.tip")+ "</td>");
+out.print("<td>"+rs.getString("Bills.total_price")+ "</td>");
